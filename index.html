@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>JS Calculator</title>
+</head>
+<body>
+    <div class="calculator-grid">
+        <div id="displayScreen">
+            <div id="prev-el"></div>
+            <div id="display"></div>
+        </div>
+        <button id="clear" onclick="updateDisplay('C')" class="span-two-column">AC</button>
+        <button id="divide" onclick="updateDisplay('/')">/</button>
+        <button id="multiply" onclick="updateDisplay('*')">*</button>
+        <button id="seven" onclick="updateDisplay('7')">7</button>
+        <button id="eight" onclick="updateDisplay('8')">8</button>
+        <button id="nine" onclick="updateDisplay('9')">9</button>
+        <button id="subtract" onclick="updateDisplay('-')">-</button>
+        <button id="four" onclick="updateDisplay('4')">4</button>
+        <button id="five" onclick="updateDisplay('5')">5</button>
+        <button id="six" onclick="updateDisplay('6')">6</button>
+        <button id="add" onclick="updateDisplay('+')"class="span-two-row">+</button>
+        <button id="one" onclick="updateDisplay('1')">1</button>
+        <button id="two" onclick="updateDisplay('2')">2</button>
+        <button id="three" onclick="updateDisplay('3')">3</button>
+        <button id="decimal" onclick="updateDisplay('.')">.</button>
+        <button id="zero" onclick="updateDisplay('0')">0</button>
+        <button id="equals" onclick="updateDisplay('=')" class="span-two-column">=</button>
+    </div>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
